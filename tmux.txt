@@ -1,19 +1,20 @@
-tmux new -s <session-name>
-<ctrl+b>+d
-tmux ls
-tmux attach -t <session-name>
+-> New sesssion: tmux new -s <session-name>
+-> Detach session: <ctrl+b>+d
+-> List session: tmux ls
+-> Reattach session: tmux attach -t <session-name>
 
-<ctrl+b> -> cc
-cc+c - new window
-cc+n - next window
-cc+p - previous window
-cc++ - rename window
-cc+w - list windows and select using enter
-cc+& - kill window or exit or delete
+Note, you first do <ctrl+b> and then press other keys.
 
-cc+" - horizontal
-cc+% - vertical
+-> <ctrl+b> + c - new window
+-> <ctrl+b> + n - next window
+-> <ctrl+b> + p - previous window
+-> <ctrl+b> + , - rename window
+-> <ctrl+b> + w - list windows and select using enter
+-> <ctrl+b> + & - kill window or exit or delete
 
-cc+x - close pane
+-> <ctrl+b> + " - horizontal split
+-> <ctrl+b> + % - vertical split
 
-cc+o - rotate clockwise pane selection
+-> <ctrl+b> + x - close pane
+
+-> <ctrl+b> + o - rotate clockwise pane selection
