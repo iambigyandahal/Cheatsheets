@@ -1,0 +1,53 @@
+# Normal Mode
+
+When vim starts we are in normal mode.
+
+To switch back to normal mode from other modes use , Esc or <C-[>
+
+Cursor Movement:
+-> h - left
+-> l - right
+-> j - down
+-> k - up
+
+Combine like:
+-> 10j - cursor to 10 line down
+-> 19k - 19 line up
+
+-> w - next word's beginning
+-> b - previous word's beginning
+-> e - end of word
+-> W - beginning of next word after a whitespace
+-> B - beginning of previous word before a whitespace
+-> E - end of word before a whitespace
+
+-> 0 - start of the line
+-> $ - end of the line
+
+-> r followed by a character - replaces a single character
+-> x - delete a character
+
+-> u - undo
+-> <C-r> - redo
+
+# Replace mode
+
+-> R to enter the mode and you will replace every character thereafter
+
+# Insert Mode
+
+To switch to insert mode use i, a, o, I, A, O
+
+# Visual mode
+
+To switch to visual mode use v, starts with single character selection, V, starts with single line selection, <C-v> start by block selection, <S-v> line selection.
+
+# Command mode
+
+-> : to enter into command mode
+-> % accross all lines
+-> s - substitute
+-> /foo - find foo
+-> /bar/ - replace foo with bar
+-> /g - global 
+-> :h or :help
