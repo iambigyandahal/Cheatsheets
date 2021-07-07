@@ -51,3 +51,12 @@ To switch to visual mode use v, starts with single character selection, V, start
 -> /bar/ - replace foo with bar
 -> /g - global 
 -> :h or :help
+
+
+# Resizing
+
+    Ctrl+W +/-: increase/decrease height (ex. 20<C-w>+)
+    Ctrl+W >/<: increase/decrease width (ex. 30<C-w><)
+    Ctrl+W _: set height (ex. 50<C-w>_)
+    Ctrl+W |: set width (ex. 50<C-w>|)
+    Ctrl+W =: equalize width and height of all windows
